@@ -31,6 +31,7 @@ the host system without extra `chown` or permission fixes.
 - [CMOC](https://perso.b2b2c.ca/~sarrazip/dev/cmoc.html) - C compiler for 6809
 - [Open Watcom v2](https://openwatcom.org/) - C/C++ compiler for DOS and other targets
 - [z88dk](https://www.z88dk.org/) - Z80 C compiler
+- [IntyBASIC](https://github.com/nanochess/IntyBASIC) - BASIC compiler for the Intellivision, with the as1600 assembler from jzIntv. The stock library files are in `/usr/local/share/intybasic/` (pass as the third `intybasic` argument); projects that still carry a 1.4.2 `lib/` need a 1.4.2 compiler.
 
 (More assemblers, linkers, and disk tools are bundled - look in
 Dockerfiles for details.)
